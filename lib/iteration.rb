@@ -10,7 +10,7 @@ def join_ingredients(src)
   joined = []
   while i < src.count do
     element = src[i]
-    result << 'I love #{element[0]} and #{element[1]} on my pizza'
+    joined << 'I love #{element[0]} and #{element[1]} on my pizza'
     i += 1
   end
   joined
