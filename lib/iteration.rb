@@ -11,7 +11,7 @@ def join_ingredients(src)
   while i < src.count do
     element_index = 0
     inner_results = 0
-    while element_index < src.[i] do
+    while element_index < src[i] do
       element1 = src[i][element_index]
       element2 = src[i][element_index + 1]
       joined << 'I love #{element1} and #{element2} on my pizza'
