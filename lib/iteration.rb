@@ -19,7 +19,7 @@ def join_ingredients(src)
     end
     i += 1
   end
-  joined
+  return joined
 end
 
 def find_greater_pair(src)
