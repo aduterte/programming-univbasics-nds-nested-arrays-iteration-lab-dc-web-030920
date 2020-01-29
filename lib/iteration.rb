@@ -15,7 +15,7 @@ def join_ingredients(src)
       element1 = src[i][element_index]
       element2 = src[i][element_index + 1]
       joined << 'I love #{element1} and #{element2} on my pizza'
-      element += 1
+      element_index += 1
     end
     i += 1
   end
